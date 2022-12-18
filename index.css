@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    font-family: 'Libre Franklin';
+    
+}
+
+.logo{
+    width: 14vw;
+    margin-bottom: 5vw;
+    margin-top: 11vw;
+}
+
+
+a{
+    font-weight: 700;
+    font-style:normal;
+    text-decoration:none;
+    color: black;
+}
+
+.text1{
+    margin-bottom: 3vw;
+    font-size: 5.5vw;
+    color: gray;
+}
+.text2{
+    font-size: 2.8vw;
+    margin-bottom: 6vw;
+}
+
+input{
+    width: 65vw;
+    height: 9vw;
+    margin-bottom: 2vw;
+    border-radius: 15px;
+    border: solid 0.0000000001px;
+    color: gray;
+}
+input::placeholder{
+    text-indent: 7vw;
+    font-size: 3vw;
+}
+button{
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    width: 65vw;
+    height: 9vw;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 13vw;
+    font-size: 3vw;
+}
+
+.illus{
+    width: 73vw;
+}
+i{
+    margin-right: 5vw;
+    font-size: 4vw;
+    color: hsl(223, 87%, 63%);
+    margin-top: 35vw;
+    border-radius: 50%;
+    border: solid 0.1px white ;
+}
+
+.text3{
+    font-size:2.5vw;
+    margin-top: 9vw;
+}
+
+input{
+    border: "";
+}
+.error{
+    font-size:3vw;
+    color: red;
+    margin-top: -1vw;
+    display: none;
+}
+
+@media (min-width:600px){
+    
+    .logo{
+        max-width: 10vw;
+        margin-top: 0.5vw;
+    }
+    .text1{
+        font-size:4.7vw;
+        margin-top: -4vw;
+
+    }
+    .text2{
+        font-size: 2vw;
+        margin-top: -3vw;
+    }
+
+    input{
+        width: 35vw;
+        height: 4vw;
+    }
+    button{
+        height: 4vw;
+        width: 12vw;
+        font-size: 1vw;
+        margin-left: 0.5vw;
+    }
+    input::placeholder{
+        font-size: 1vw;
+    }
+
+    .block{
+        display: flex;
+        margin-top: -5vw;
+    }
+    .illus{
+        margin-top: -9vw;
+        width: 50vw;
+    }
+    i{
+        font-size: 2vw;
+    }
+    .icon{
+        margin-top: -22vw;
+    }
+    .text3{
+        margin-top: 1vw;
+    }
+    .text3{
+        font-size: 2vw;
+    }
+    .mblock{
+        display: block;
+    }
+
+    .error{
+        font-size:1vw ;
+    }
+
+    i:hover{
+        font-size: 5vw;
+        transition: 0.2ms;
+    }
+}
+
+@media (max-width:600px){
+.block{
+    margin-left: 14vw;
+}
+
+}
